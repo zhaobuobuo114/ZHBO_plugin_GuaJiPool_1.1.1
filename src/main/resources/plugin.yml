@@ -1,0 +1,21 @@
+name: GuajiPool
+version: ${project.version}
+main: com.guaji.GuajiPlugin
+description: 挂机池插件 - 区域内挂机倒计时发放奖励
+author: zhaobuobuo
+website: 1071576270@QQ.COM
+
+commands:
+  guaji:
+    description: 挂机池管理命令
+    usage: |
+      /guaji pos1 - 设置区域角点1（以站立位置）
+      /guaji pos2 - 设置区域角点2（以站立位置）
+      /guaji reload - 重载配置
+      /guaji status - 查看当前配置状态
+    permission: guaji.admin
+
+permissions:
+  guaji.admin:
+    description: 挂机池管理权限
+    default: op

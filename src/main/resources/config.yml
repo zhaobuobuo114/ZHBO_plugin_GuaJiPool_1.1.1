@@ -1,0 +1,51 @@
+# ================= GuajiPool 挂机池配置 =================
+
+# 挂机区域（推荐在游戏内用 /guaji pos1、/guaji pos2 站在对应位置设置）
+# 也可手动填写：世界名 + 两个对角坐标 [x, y, z]
+region:
+  world: world
+  pos1: [0, 60, 0]
+  pos2: [10, 80, 10]
+
+# 每次奖励所需的挂机时长（秒）
+duration: 600
+
+# 奖励命令列表（由控制台执行，%player% 会被替换为玩家名）
+rewards:
+  - "give %player% diamond 1"
+  - "say %player% 获得了挂机奖励！"
+
+# 玩家离开区域时的处理：true=重置倒计时 / false=暂停保留（回来继续计时）
+reset-on-leave: true
+
+# 自动热重载：检测到 config.yml 被修改保存后自动重载，无需执行命令或重启
+# 时长未变时玩家倒计时进度保留；时长修改则自动重置倒计时
+auto-reload: true
+
+# 挂机中的大字倒计时显示（Title 大标题）
+display:
+  enabled: true
+  # 大标题文字（%time% 为剩余时间，如 9分59秒）
+  title: "§6§l距离下次奖励还剩"
+  # 副标题文字（留空 "" 则只显示大标题）
+  subtitle: "§e%time%"
+
+# 奖励发放时的反馈
+reward:
+  # 聊天提示（留空禁用）
+  message: "§a✔ 你获得了挂机奖励！"
+  # 大字提示标题（留空禁用）
+  title: "§a§l✔ 挂机奖励已发放"
+  # 大字提示副标题
+  subtitle: ""
+  # 粒子效果，格式：粒子名;数量（留空禁用，如 FIREWORKS_SPARK）
+  particle: "FIREWORKS_SPARK;40"
+
+# 音效配置，格式：音效名;音量;音调（留整项为 "" 禁用，配置错误后台警告并跳过）
+sounds:
+  # 倒计时提示：最后 X 秒每秒一声，音调逐秒升高（0=禁用倒计时音效）
+  countdown-tick-seconds: 5
+  # 倒计时滴答音（音调会自动随剩余秒数递增，此处为基础音调）
+  countdown-tick: "BLOCK_NOTE_PLING;1.0;1.2"
+  # 奖励发放提示音
+  reward: "ENTITY_PLAYER_LEVELUP;1.0;1.0"
