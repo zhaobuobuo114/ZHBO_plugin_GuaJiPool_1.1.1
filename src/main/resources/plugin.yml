@@ -1,9 +1,9 @@
 name: ZHBO_plugin_GuaJiPool_1.1.1
 version: ${project.version}
 main: com.guaji.GuajiPlugin
-description: 挂机池插件 - 区域内挂机倒计时发放奖励
-author: zhaobuobuo
-website: 1071576270@QQ.COM
+description: "【ZHBO】plugin_GuaJiPool_1.1.1 | 1.12.2 挂机池插件 - 区域内挂机倒计时发放奖励 | 作者: zhaobuobuo | 联系: 1071576270@QQ.COM"
+authors: [zhaobuobuo]
+website: "mailto:1071576270@QQ.COM"
 
 commands:
   guaji:

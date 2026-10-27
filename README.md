@@ -1,11 +1,14 @@
-# ZHBO_plugin_GuaJiPool_1.1.1
+# 【ZHBO】plugin_GuaJiPool_1.1.1 · 挂机池插件
 
-Minecraft **1.12.2** 挂机池插件：玩家站在指定区域内挂机，屏幕实时显示大字倒计时，倒计时结束后自动发放可配置奖励，并带有音效、粒子等反馈。
+> Minecraft **1.12.2**（Spigot / Paper）挂机池插件 —— 玩家站在指定区域内挂机，屏幕实时显示大字倒计时，倒计时结束自动发放可配置奖励，并带有音效、粒子等反馈。
 
-- 作者：zhaobuobuo
-- 联系方式：1071576270@QQ.COM
-- 适用服务端：Spigot / Paper 1.12.2
-- 运行环境：Java 8
+![version](https://img.shields.io/badge/version-1.1.1-2ea44f)
+![platform](https://img.shields.io/badge/platform-Spigot%20%7C%20Paper%201.12.2-orange)
+![java](https://img.shields.io/badge/Java-8-blue)
+[![download](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-ZHBO__plugin__GuaJiPool__1.1.1.jar-2ea44f?logo=github)](https://github.com/zhaobuobuo114/ZHBO_plugin_GuaJiPool_1.1.1/releases/latest)
+
+> 👤 **作者**：zhaobuobuo ｜ 📧 **联系方式**：1071576270@QQ.COM
+> 🐙 **GitHub**：<https://github.com/zhaobuobuo114>
 
 ---
 
@@ -248,3 +251,4 @@ mvn clean package
 
 - 作者：zhaobuobuo
 - 邮箱：1071576270@QQ.COM
+- GitHub：<https://github.com/zhaobuobuo114>
