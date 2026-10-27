@@ -9,7 +9,7 @@
     <version>1.1.1</version>
     <packaging>jar</packaging>
 
-    <name>GuajiPool</name>
+    <name>ZHBO_plugin_GuaJiPool_1.1.1</name>
     <description>MC 1.12.2 挂机池插件 - 区域内挂机倒计时发放奖励</description>
 
     <developers>
@@ -43,7 +43,7 @@
     </dependencies>
 
     <build>
-        <finalName>${project.name}-${project.version}</finalName>
+        <finalName>${project.name}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

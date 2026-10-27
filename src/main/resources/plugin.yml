@@ -1,4 +1,4 @@
-name: GuajiPool
+name: ZHBO_plugin_GuaJiPool_1.1.1
 version: ${project.version}
 main: com.guaji.GuajiPlugin
 description: 挂机池插件 - 区域内挂机倒计时发放奖励

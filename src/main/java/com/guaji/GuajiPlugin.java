@@ -3,7 +3,7 @@ package com.guaji;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * GuajiPool 主类
+ * ZHBO_plugin_GuaJiPool_1.1.1 主类
  * 挂机池插件：玩家在指定区域内挂机，屏幕显示大字倒计时，倒计时结束发放可配置奖励
  */
 public class GuajiPlugin extends JavaPlugin {
